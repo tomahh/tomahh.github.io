@@ -1,0 +1,23 @@
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+header {
+    overflow: hidden;
+    /*text-align: center;*/
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+header h2 {
+    font-weight: normal;
+}
+
+#profil-picture
+{
+    float: left;
+    margin-right: 10px;
+}
