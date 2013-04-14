@@ -12,7 +12,7 @@ header {
     border-bottom: 1px solid #eeeeee;
 }
 
-header h2 {
+header > h2 {
     font-weight: normal;
 }
 
@@ -20,4 +20,57 @@ header h2 {
 {
     float: left;
     margin-right: 10px;
+}
+
+#infos
+{
+    float: right;
+    font-size:1.5em;
+    list-style-type: none;
+}
+
+#infos > li
+{
+    line-height: 36px;
+    height: 36px;
+    width:36px;
+    text-align: center;
+}
+
+#infos > li > a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#infos > li#github
+{
+    font-size:1.1em;
+}
+
+#infos > li#twitter
+{
+    font-size:0.9em;
+}
+
+#infos > li#github:hover > a
+{
+    color: #4E4E4E;
+}
+
+#infos > li#twitter:hover > a
+{
+    color: #00ABF0;
+}
+
+#infos > li#stackoverflow > div
+{
+    height:24px;
+    width:24px;
+    margin:auto;
+}
+
+#infos > li#stackoverflow:not(:hover) path, #infos > li#stackoverflow:not(:hover) rect
+{
+    fill: black;
 }
