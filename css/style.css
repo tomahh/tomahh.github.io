@@ -1,15 +1,25 @@
 body {
     width: 1280px;
     margin: auto;
+    color: #111;
 }
+
+h1 {
+}
+
+h2 {
+}
+
+/*
+ * Header style
+ */
 
 header {
     overflow: hidden;
-    /*text-align: center;*/
     padding: 10px;
     margin: auto;
     margin-bottom: 10px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #eee;
 }
 
 header > h2 {
@@ -39,7 +49,7 @@ header > h2 {
 
 #infos > li > a
 {
-    color: black;
+    color: #111;
     text-decoration: none;
 }
 
@@ -48,14 +58,14 @@ header > h2 {
     font-size:1.1em;
 }
 
-#infos > li#twitter
-{
-    font-size:0.9em;
-}
-
 #infos > li#github:hover > a
 {
     color: #4E4E4E;
+}
+
+#infos > li#twitter
+{
+    font-size:0.9em;
 }
 
 #infos > li#twitter:hover > a
@@ -72,5 +82,5 @@ header > h2 {
 
 #infos > li#stackoverflow:not(:hover) path, #infos > li#stackoverflow:not(:hover) rect
 {
-    fill: black;
+    fill: #111;
 }
