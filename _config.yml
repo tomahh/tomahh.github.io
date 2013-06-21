@@ -4,3 +4,8 @@ description: ""
 url: "http://duplomb.com"
 
 markdown: rdiscount
+
+analytics:
+  provider : google
+  google :
+      tracking_id : 'UA-39594696-1'
