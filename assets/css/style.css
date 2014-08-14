@@ -21,16 +21,17 @@ header {
     border-bottom: 1px solid #eee;
 }
 
-header > h2 {
-    font-weight: normal;
+header > h1 {
+    font-size: 1.5em;
+    margin: 0;
 }
 
 #profil-picture
 {
     float: left;
     margin-right: 10px;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
 }
 
 #infos
@@ -38,14 +39,15 @@ header > h2 {
     float: right;
     font-size:1.5em;
     list-style-type: none;
+    margin: 0;
 }
 
 #infos > li
 {
     line-height: 36px;
-    height: 36px;
-    width:36px;
+    margin: 0 5px;
     text-align: center;
+    float: left;
 }
 
 #infos > li > a
