@@ -1,3 +1,21 @@
 ---
 layout: regular
 ---
+<h2>Experiences</h2>
+{% assign experiences = site.experiences | sort: 'start-date' %}
+{% for experience in experiences %}
+<h3>{{ experience.company }}</h3>
+<h4>{{ experience.title }} - {{ experience.start-date }} / {% if experience.end-date %}{{ experience.end-date }}{% else %}Today{% endif %}</h4>
+<div>
+  {{ experience.content }}
+</div>
+{% endfor %}
+<h2>Education</h2>
+{% assign education = site.education %}
+{% for school in education %}
+<h3>{{ school.name }}</h3>
+<h4>{{ school.type }} - {{ school.start-date }} / {{ school.end-date }}</h4>
+<div>
+  {{ school.content }}
+</div>
+{% endfor %}
