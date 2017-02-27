@@ -2,7 +2,6 @@ body {
     /* margin: auto; */
     color: #111;
     font-family: "Courier New", Courier, monospace;
-    padding-top: 63px;
 }
 
 h1, h2, h3, h4 {
@@ -67,6 +66,10 @@ header {
     /* margin-bottom: 10px; */
     border-bottom: 1px solid #eee;
     background-color: #fff;
+}
+
+header + div {
+  padding-top: 63px;
 }
 
 header > h1 {
