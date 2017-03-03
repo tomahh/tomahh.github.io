@@ -1,8 +1,8 @@
 ---
 company: "Epitech"
 title: "Teaching Assistant"
-start-date: "08.2011"
-end-date: "12.2011"
+start-date: 2011-08-01
+end-date: 2011-12-31
 ---
 
 In the scope of my end-of-first-year internship, I took a position within the school's administration. I was a teaching assistant for 1st year students, and helped them through numerous projects, all of them written in C.

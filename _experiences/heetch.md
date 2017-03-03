@@ -1,7 +1,7 @@
 ---
 company: "Heetch"
 title: "Mobile Software Engineer"
-start-date: "05.2014"
+start-date: 2014-05-01
 end-date: null
 ---
 

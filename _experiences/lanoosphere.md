@@ -1,8 +1,8 @@
 ---
 company: "La Noosphere"
 title: "Mobile Software Engineering Intern"
-start-date: "08.2012"
-end-date: "05.2013"
+start-date: 2012-08-01
+end-date: 2013-05-01
 ---
 
 The company was developing, amongst other things, a skeleton application for restaurants. I worked on a refactoring of the memory and network management of this app.
