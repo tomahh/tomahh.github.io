@@ -2,7 +2,7 @@
 company: "Heetch"
 title: "Mobile Software Engineer"
 start-date: 2014-05-01
-end-date: null
+end-date: 2017-7-10
 ---
 
 Alongside developing new features for the iOS application, I managed the whole mobile development team during my first year and a half at Heetch.
